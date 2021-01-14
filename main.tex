@@ -6,20 +6,20 @@
 % Created by:
 % Computational Physics and Biophysics Group, Jacobs University
 % https://teamwork.jacobs-university.de:8443/confluence/display/CoPandBiG/LaTeX+Poster
-% 
+%
 % Further modified by:
 % Nathaniel Johnston (nathaniel@njohnston.ca)
 %
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
-% 
+%
 % Masaryk University presentation themes were downloaded from:
 % https://www.overleaf.com/gallery/tagged/muni
 %
 % and ported into Jacobs Landscape Poster by:
 % Jumaidil Awal (ideal1st.here@googlemail.com)
-% 
+%
 % Jacobs Landscape Poster License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
 %
@@ -74,7 +74,7 @@
 \usepackage{booktabs} % Top and bottom rules for tables
 
 %----------------------------------------------------------------------------------------
-%	TITLE SECTION 
+%	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
 \title{The Augmented Agronomist} % Poster title
@@ -122,9 +122,15 @@
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
 
-\begin{exampleblock}{Summary}
+\begin{exampleblock}{The Augmented Agronomist}
 
-In this poster we present our work in progress. We seek to augment agronomists ability to accurately predict yield based on temporal and spacial factors. This includes automated data collection, problem identification and signaling to agronomists for diagnosis and labelling of difficult cases. This will also use certainty metrics for identification of difficult cases, such that an active learning approach can be taken. We also create pipelines for distributed data collection, aggregation, training, and inference. We currently focus on strawberry tabletop scenarios, using our own strawberry crop on our Riseholme campus.
+The Augmented Agronomist is an AI that seeks to:
+  \begin{itemize}
+      \item Collect and aggregate strawberry growth and environmental data from arbitrary Thorvald robots over arbitrary number of sites.
+      \item Predict, and help predict strawberry yield accurately, in near real time.
+      \item Alert agronomists to problems/ uncertain scenarios, so that they can train the neural networks to properly handle these difficult scenarios in future, like a digital apprentice.
+      \item Absolutely protect potentially sensitive data using fully homomorphically encrypted deep learning.
+  \end{itemize}
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{img/wasp}
@@ -148,8 +154,8 @@ In this poster we present our work in progress. We seek to augment agronomists a
 %	MATERIALS
 %----------------------------------------------------------------------------------------
 
-\begin{exampleblock}{Robotic platform}
-Our experimental data collection platform conducting data collection.
+\begin{exampleblock}{Thorvald/ Robotic platform}
+.
 \begin{figure}
 \includegraphics[width=1\linewidth]{img/thorvald}
 \end{figure}
@@ -207,7 +213,7 @@ GRU       & 0.155     \\ \hline % 10.5 / 67.52
 \includegraphics[width=1\linewidth]{img/pipeline}
 \end{figure}
 
-\end{alertblock} 
+\end{alertblock}
 
 %----------------------------------------------------------------------------------------
 
@@ -316,14 +322,15 @@ Currently best estimates for strawberry yield are rough counts of strawberry flo
 \begin{block}{Contact Information}
 
 \begin{itemize}
-\item Web: \href{https://github.com/DreamingRaven/nemesyst}{github.com/DreamingRaven/nemesyst}
+\item Web: \href{https://github.com/DreamingRaven/nemesyst}{github.com/DreamingRaven/2021-ahdb-conference-poster}
 \item Email: \href{mailto:gonoufriou@lincoln.ac.uk}{gonoufriou@lincoln.ac.uk}
 \end{itemize}
 
 \end{block}
 
 \begin{figure}
-\includesvg[width=0.4\linewidth]{img/qr}
+% \includesvg[width=0.4\linewidth]{img/qrcode.svg}
+\includegraphics[width=0.4\linewidth]{img/qrcode.png}
 \end{figure}
 
 %----------------------------------------------------------------------------------------
